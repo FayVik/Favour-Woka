@@ -1,5 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
+import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -9,6 +10,8 @@ import { AnimationComponent } from "./animation/animation.component";
 import { ContactComponent } from "./contact/contact.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { RouterModule } from "@angular/router";
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,30 +19,15 @@ import { RouterModule } from "@angular/router";
     BioComponent,
     ContactComponent,
     ThoughtComponent,
-    AnimationComponent
+    AnimationComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    // BrowserAnimationsModule,
-    // RouterModule.forRoot([
-    //   { path: "", pathMatch: "full", redirectTo: "" },
-    //   // {
-    //   //   path: "heroes",
-    //   //   component: HeroListPageComponent,
-    //   //   data: { animation: "FilterPage" }
-    //   // },
-    //   {
-    //     path: "bio",
-    //     component: BioComponent,
-    //     data: { animation: "BioPage" }
-    //   },
-    //   {
-    //     path: "contanct",
-    //     component: ContactComponent,
-    //     data: { animation: "ContactPage" }
-    //   }
-    // ])
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

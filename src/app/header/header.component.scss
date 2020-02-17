@@ -1,0 +1,17 @@
+nav {
+  position: fixed;
+  ul {
+    background-color: rgba(102, 102, 153, 0.89);
+    li {
+      font-size: 22px;
+      font-weight: bold;
+      a {
+        color: #fff;
+      }
+    }
+  }
+  .active {
+    font-weight: bolder;
+    border-bottom: 2px solid #fff;
+  }
+}
