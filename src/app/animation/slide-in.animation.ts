@@ -15,12 +15,12 @@ export const slideInOutAnimation =
       "*",
       style({
         // the view covers the whole screen with a semi tranparent background
-        position: "fixed",
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        backgroundColor: "rgba(0, 0, 0, 0.8)"
+        // position: "fixed",
+        // top: 0,
+        // left: 0,
+        // right: 0,
+        // bottom: 0,
+        backgroundColor: "rgba(255, 255, 255.8)"
       })
     ),
 
@@ -33,7 +33,7 @@ export const slideInOutAnimation =
         right: "-400%",
 
         // start with background opacity set to 0 (invisible)
-        backgroundColor: "rgba(0, 0, 0, 0)"
+        backgroundColor: "rgba(255, 255, 255)"
       }),
 
       // animation and styles at end of transition
@@ -44,7 +44,7 @@ export const slideInOutAnimation =
           right: 0,
 
           // transition the background opacity to 0.8 to fade it in
-          backgroundColor: "rgba(0, 0, 0, 0.8)"
+          backgroundColor: "rgba(255, 255, 255.8)"
         })
       )
     ]),
@@ -59,7 +59,7 @@ export const slideInOutAnimation =
           right: "-400%",
 
           // transition the background opacity to 0 to fade it out
-          backgroundColor: "rgba(0, 0, 0, 0)"
+          backgroundColor: "rgba(255, 255, 255)"
         })
       )
     ])

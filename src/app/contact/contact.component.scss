@@ -1,0 +1,35 @@
+@import "../../styles.scss";
+.container {
+  min-height: 80vh;
+  width: 100%;
+  font-size: 21px;
+  margin-bottom: 5%;
+  .row {
+    h1 {
+      margin-top: 10%;
+      font-weight: bolder;
+      margin-bottom: 3%;
+      color: rgb(102, 102, 153);
+    }
+    form {
+      button {
+        @include app-buttons(inherit, rgb(102, 102, 153), rgb(102, 102, 153));
+        color: #fff;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+      input {
+        outline: none;
+        box-shadow: none;
+      }
+      textarea {
+        outline: none;
+        box-shadow: none;
+      }
+      select {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}

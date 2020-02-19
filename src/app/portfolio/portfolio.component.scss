@@ -50,47 +50,5 @@
         }
       }
     }
-    .col-lg-12 {
-      h4 {
-        font-weight: bolder;
-        font-size: 26px;
-        span {
-          font-size: 21px;
-        }
-      }
-      span {
-        font-size: 18px;
-      }
-      div {
-        ol {
-          li {
-            a {
-              color: rgb(102, 102, 153);
-              text-decoration: none;
-            }
-          }
-        }
-      }
-    }
-    form {
-      button {
-        @include app-buttons(inherit, rgb(102, 102, 153), rgb(102, 102, 153));
-        color: #fff;
-        padding-right: 30px;
-        padding-left: 30px;
-      }
-      input {
-        outline: none;
-        box-shadow: none;
-      }
-      textarea {
-        outline: none;
-        box-shadow: none;
-      }
-      select {
-        outline: none;
-        box-shadow: none;
-      }
-    }
   }
 }

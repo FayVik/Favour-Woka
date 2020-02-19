@@ -1,5 +1,6 @@
 nav {
   position: fixed;
+  z-index: 10000;
   ul {
     background-color: rgba(102, 102, 153, 0.89);
     li {
