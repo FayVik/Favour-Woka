@@ -37,13 +37,16 @@
               }
             }
           }
-          .card {
-            .card-body {
-              .card-text {
-                a {
-                  font-size: 20px;
-                  text-decoration: none;
-                }
+        }
+      }
+      .col-lg-5 {
+        .card {
+          .card-body {
+            .card-text {
+              a {
+                font-size: 20px;
+                text-decoration: none;
+                color: rgb(102, 102, 153);
               }
             }
           }
