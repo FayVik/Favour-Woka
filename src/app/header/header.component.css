@@ -1,0 +1,23 @@
+nav {
+  position: fixed;
+  z-index: 10000;
+}
+
+nav ul {
+  background-color: rgba(102, 102, 153, 0.89);
+}
+
+nav ul li {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav .active {
+  font-weight: bolder;
+  border-bottom: 2px solid #fff;
+}
+/*# sourceMappingURL=header.component.css.map */

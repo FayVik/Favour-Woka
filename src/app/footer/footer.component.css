@@ -1,0 +1,20 @@
+footer {
+  min-height: 15vh;
+  width: 100%;
+  background-color: rgba(102, 102, 153, 0.89);
+  color: #fff;
+  font-size: 18px;
+}
+
+footer .row {
+  min-height: 15vh;
+  width: 100%;
+  margin: 0;
+}
+
+footer .row .col-12 a {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 25px;
+}
+/*# sourceMappingURL=footer.component.css.map */
